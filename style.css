@@ -154,12 +154,6 @@ input[type="checkbox"]{
   height:100%;
   border-radius: 0px;
 }
-.footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  margin:10px;
-}
 .todo-body{
   height:400px;
 }
@@ -167,5 +161,12 @@ input[type="checkbox"]{
   position:relative;
   top:0%;
   border-radius: 0px;
+}
+body{
+  background-color: white;
+  background-image: none;
+}
+.footer{
+  color:black;
 }
 }
