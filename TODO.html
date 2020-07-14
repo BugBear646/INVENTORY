@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>INVENTORY</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="loader"></div>
+
+<div class="phone">
+  <div class="header">
+    <h2><span style="color:#0F0">TODO</span> List</h2>
+    <p><span id="monthe"></span> <span id="dayo"></span>,<span id="yeara"></span></p>
+  
+    <div class="removeText">&#128465; Clean Checked Tasks</div>
+  </div>
+  <div class="todo-body">
+    <ul class="todo-list">
+      <li class="todo-item"><input type="checkbox"/> Welcome to your TODO List </li>
+    </ul>
+  </div>
+  <div>
+  <input type="text" class="todoInput" placeholder="Enter a task and press enter"/>
+</div>
+
+</div>
+<div class="footer">
+  <p>Created with <span style="color:red">❤</span> by <a href="https://bugbear646.github.io/Intro-Site/Home.html" style="text-decoration: none;color:#0CF">Aniket Jha</a>,Copyright:2020 </p>
+</div>
+
+ <script type="text/javascript">
+     jQuery(window).load(function()
+        {
+         jQuery("#loader").fadeOut(500);
+        });
+</script>
+
+<script src='script.js'></script>
+ <script src='dates.js'></script>
+</body>
+</html>
