@@ -151,6 +151,21 @@ input[type="checkbox"]{
 @media only screen and (max-width: 500px){
   .phone{
   width:100vw;
-  height:100vh;
+  height:100%;
+  border-radius: 0px;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  margin:10px;
+}
+.todo-body{
+  height:400px;
+}
+.header{
+  position:relative;
+  top:0%;
+  border-radius: 0px;
 }
 }
