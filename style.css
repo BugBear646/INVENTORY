@@ -148,3 +148,9 @@ input[type="checkbox"]{
 #butonr:hover{
   color:red;
 }
+@media only screen and (max-width: 500px){
+  .phone{
+  width:100vw;
+  height:100vh;
+}
+}
