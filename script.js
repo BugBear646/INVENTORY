@@ -51,12 +51,17 @@ class TodoList {
         });
         this.render();
     }
+    /*
     myRemove(){
          this.todo.style.display="none";
          this.render;
     }
+    */
     template(item, id) {
+        return (`<li class="todo-item ${(item.checked ? "checked" : "")}" data-key="${id}"><input type="checkbox" data-key="${id}" ${(item.checked ? "checked" : "")}/> ${ item.text } </li>`);
+        /*
         return (`<li class="todo-item ${(item.checked ? "checked" : "")}" data-key="${id}"><input type="checkbox" data-key="${id}" ${(item.checked ? "checked" : "")}/> ${ item.text } <button id="butonr" onclick="myRemove()" ><i class="fa fa-trash" aria-hidden="true"></i></button></li>`);
+        */
     }
     render() {
         let todoElements = [];
